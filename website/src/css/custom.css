@@ -1,0 +1,167 @@
+/**
+ * Custom CSS for ArtLoop - Performing Arts Theme
+ */
+
+/* Color Variables */
+:root {
+  --ifm-color-primary: #667eea;
+  --ifm-color-primary-dark: #4c63e8;
+  --ifm-color-primary-darker: #3f56e6;
+  --ifm-color-primary-darkest: #2d42d4;
+  --ifm-color-primary-light: #8098ec;
+  --ifm-color-primary-lighter: #93a5ee;
+  --ifm-color-primary-lightest: #b3c0f2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(102, 126, 234, 0.1);
+  
+  /* Custom gradient colors */
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+/* Dark mode colors */
+[data-theme='dark'] {
+  --ifm-color-primary: #8098ec;
+  --ifm-color-primary-dark: #667eea;
+  --ifm-color-primary-darker: #5a73e8;
+  --ifm-color-primary-darkest: #4c63e8;
+  --ifm-color-primary-light: #93a5ee;
+  --ifm-color-primary-lighter: #a6b2f0;
+  --ifm-color-primary-lightest: #c6cef5;
+  --docusaurus-highlighted-code-line-bg: rgba(102, 126, 234, 0.3);
+}
+
+/* Global enhancements */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navbar enhancements */
+.navbar {
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+  backdrop-filter: blur(10px);
+  background: linear-gradient(90deg, rgba(255,255,255,0.98) 0%, rgba(248,249,250,0.98) 100%);
+}
+
+[data-theme='dark'] .navbar {
+  background: linear-gradient(90deg, rgba(24,25,26,0.98) 0%, rgba(36,37,38,0.98) 100%);
+}
+
+.navbar__title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar__link {
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: #667eea !important;
+  transform: translateY(-1px);
+}
+
+/* Footer enhancements */
+.footer {
+  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  padding: 3rem 0;
+}
+
+.footer__title {
+  color: #f093fb;
+  font-weight: 700;
+}
+
+.footer__link-item:hover {
+  color: #f093fb;
+  text-decoration: none;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Container max-width adjustment */
+.container {
+  max-width: 1400px;
+}
+
+/* Link styling */
+a {
+  transition: all 0.3s ease;
+}
+
+/* Button enhancements */
+.button {
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button--primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+.button--primary:hover {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+/* Enhance links in content */
+article a {
+  color: #667eea;
+  text-decoration: underline;
+  text-decoration-color: rgba(102, 126, 234, 0.3);
+  text-decoration-thickness: 2px;
+  transition: all 0.3s ease;
+}
+
+article a:hover {
+  color: #764ba2;
+  text-decoration-color: rgba(118, 75, 162, 0.5);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #f093fb 100%);
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: #1a202c;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(102, 126, 234, 0.3);
+  color: inherit;
+}
+
+::-moz-selection {
+  background: rgba(102, 126, 234, 0.3);
+  color: inherit;
+}
