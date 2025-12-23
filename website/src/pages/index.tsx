@@ -8,14 +8,14 @@ import styles from './index.module.css';
 const upcomingEvents = [
   {
     id: 1,
-    title: 'Jazz & Wine Evening',
+    title: 'Acoustic Bollywood',
     date: 'January 15, 2026',
     time: '7:00 PM - 10:00 PM',
     venue: 'The Grand Hall',
-    performer: 'Sarah Mitchell Quartet',
-    description: 'An intimate evening of smooth jazz paired with premium wines',
+    performer: 'Vikram Kumar',
+    description: 'An intimate evening of smooth Bollywood music paired with premium wines',
     image: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&q=80',
-    price: '$85',
+    price: '$35',
   },
   {
     id: 2,

@@ -8,7 +8,7 @@ import styles from './event.module.css';
 const eventsData = {
   1: {
     id: 1,
-    title: 'Jazz & Wine Evening',
+    title: 'Acoustic Bollywood',
     date: 'January 15, 2026',
     time: '7:00 PM - 10:00 PM',
     venue: 'The Grand Hall',
@@ -18,7 +18,7 @@ const eventsData = {
     description: 'An intimate evening of smooth jazz paired with premium wines',
     fullDescription: 'Join us for an enchanting evening where the sophisticated sounds of the Sarah Mitchell Quartet meet carefully selected premium wines. This intimate gathering features three sets of contemporary and classic jazz standards, accompanied by wine tastings curated by our sommelier.',
     image: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1200&q=80',
-    price: '$85',
+    price: '$35',
     capacity: '100 guests',
     dresscode: 'Smart Casual',
     includes: ['Wine tasting', 'Light appetizers', 'Reserved seating', 'Complimentary valet parking'],
